@@ -1,0 +1,8 @@
+prefix=/home/feng/catkin_ws/devel
+
+Name: follower_velocity_smoother
+Description: Description of follower_velocity_smoother
+Version: 0.6.4
+Cflags: -I/home/feng/catkin_ws/devel/include -I/home/feng/catkin_ws/src/follower_velocity_smoother/include
+Libs: -L${prefix}/lib -lfollower_velocity_smoother_nodelet
+Requires: roscpp pluginlib nodelet ecl_threads dynamic_reconfigure geometry_msgs nav_msgs
